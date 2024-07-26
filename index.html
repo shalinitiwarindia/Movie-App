@@ -5,7 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #navbar{
+       
+   h1{
+    background-color: black;
+    height: 100px;
+    color: red;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    font-style: italic;
+    font-family: cursive;
+   }
+    #navbar{
             display: flex;
             border: 2px solid black;
             font-weight: bolder;
@@ -15,7 +26,73 @@
             padding-right: 20px;
             height: 30px;
             padding-top: 10px;
+            background-color: blueviolet;
+            border: none;
+            
+    }
+        a {
+        text-decoration: none;
+      }
+     
+      #navbar a {
+        cursor: pointer;
+      }
+        img{
+            object-fit: cover;
+            width: fit-content;
+            height: fit-content;
         }
+        #movies {
+            width: 100vh;
+            height: 100vh;
+        }
+     
+
+.buttons {
+    margin: 20px;
+    text-align: center;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 25%;
+    gap: 20px;
+    max-width: 900px;
+}
+
+.grid-item {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-item h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.grid-item p {
+    margin: 5px 0;
+}
+img{
+    width: 100%;
+}
+
+   
     </style>
 </head>
 <body>
